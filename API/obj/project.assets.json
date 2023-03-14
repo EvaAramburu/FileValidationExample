@@ -3728,11 +3728,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\evama\\OneDrive\\Escritorio\\FileValidation\\FileValidationExample\\API\\API.csproj",
+      "projectUniqueName": "D:\\FemCoders\\Backend\\PÍLDORAS\\FileValidation\\FileValidationExample\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "C:\\Users\\evama\\OneDrive\\Escritorio\\FileValidation\\FileValidationExample\\API\\API.csproj",
+      "projectPath": "D:\\FemCoders\\Backend\\PÍLDORAS\\FileValidation\\FileValidationExample\\API\\API.csproj",
       "packagesPath": "C:\\Users\\evama\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\evama\\OneDrive\\Escritorio\\FileValidation\\FileValidationExample\\API\\obj\\",
+      "outputPath": "D:\\FemCoders\\Backend\\PÍLDORAS\\FileValidation\\FileValidationExample\\API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\evama\\AppData\\Roaming\\NuGet\\NuGet.Config",

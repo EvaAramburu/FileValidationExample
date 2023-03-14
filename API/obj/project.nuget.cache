@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "y8KqHyxHk3LEqXL3BbM42Xk8FzGDgv6G5jrKlIOCi8C+pbvWeZxKgD+OXH/ExRiZeVrTiWfnPT40l0duSeM9Uw==",
+  "dgSpecHash": "1QwJ7BwPh5jwKwSjU5tZETX3DKBCXGoZTszznSxIoXwVyRx+cxiVxb+nXY24+3WNP06Rx3XMisZych/ff93UXg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\evama\\OneDrive\\Escritorio\\FileValidation\\FileValidationExample\\API\\API.csproj",
+  "projectFilePath": "D:\\FemCoders\\Backend\\PÍLDORAS\\FileValidation\\FileValidationExample\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\evama\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\evama\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

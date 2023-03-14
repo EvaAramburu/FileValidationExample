@@ -1,5 +1,6 @@
 ﻿using API.IServices;
 using API.Models;
+using API.ValidationAttributes;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Net.Http.Headers;
 using System;
@@ -13,6 +14,8 @@ namespace API.Controllers
     public class FileController
     {
         private readonly IFileService _fileService;
+        private object fileUploadModel;
+
         public FileController(IFileService fileService)
         {
             _fileService = fileService;
@@ -23,6 +26,7 @@ namespace API.Controllers
         {
             try
             {
+                ValidatePhotoFile(fileUploadModel.File);
                 var fileItem = new FileItem();
                 fileItem.Id = 0;
                 fileItem.Name = fileUploadModel.File.FileName;
@@ -44,11 +48,17 @@ namespace API.Controllers
             }
         }
 
+        private void ValidatePhotoFile(IFormFile file)
+        {
+            throw new NotImplementedException();
+        }
+
         [HttpGet(Name = "GetFileById")]
         public FileStreamResult GetFileById(int id)
-        {
+        { 
             try
             {
+      
                 var fileItem = _fileService.GetFileById(id);
                 var stream = new MemoryStream(fileItem.Content);
                 var mimeType = MediaTypeNames.Image.Jpeg.ToString();
@@ -62,5 +72,6 @@ namespace API.Controllers
                 throw;
             }
         }
+       
     }
 }

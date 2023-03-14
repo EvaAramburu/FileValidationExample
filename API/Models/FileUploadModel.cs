@@ -6,9 +6,9 @@ namespace API.Models
 {
     public class FileUploadModel
     {
-        [ExtensionArchivo(TipoArchivo.Image)]
+        //[ExtensionArchivo(TipoArchivo.Image)]
 
-        [PesoArchivo(1024)]
+        //[PesoArchivo(1024)]
         public IFormFile File { get; set; }
         public FileExtensionEnum FileExtension { get; set; }
 
